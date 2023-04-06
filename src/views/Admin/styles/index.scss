@@ -1,0 +1,54 @@
+.form-inner{
+  margin: 0 30px;
+}
+
+.manage-operate{
+  padding: 10px 0;
+  text-align: left;
+}
+
+.avatar-uploader .el-upload{
+  width: $width;
+  height: $height;
+  border: 1px dashed #d9d9d9;
+  border-radius: 8px;
+  margin-right: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  float: left;
+}
+
+.avatar-uploader .el-upload:hover {
+  border-color: #409EFF;
+}
+
+.el-upload-list--picture-card {
+  .el-upload-list__item-actions,
+  .el-upload-list__item-thumbnail,
+  .el-upload-list__item{
+    width: $width;
+    height: $height;
+    border: none;
+  }
+}
+
+.el-icon-plus {
+  font-size: 28px;
+  color: #8c939d;
+  width: $width;
+  line-height: $height;
+  position: absolute;
+  left: 0;
+  text-align: center;
+}
+
+.avatar {
+  width: $width;
+  display: block;
+}
+
+.el-switch__label.is-active{
+  color: #d27a55;
+  font-weight: bold;
+}
